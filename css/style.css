@@ -31,6 +31,30 @@ body {
   border-top: 1px solid #e5e5e5;
 }
 
+.circulo {
+  border-radius: 20%;
+}
+
+.fondo {
+  background-color: pink;
+}
+
+.nombre {
+  font-weight: bold;
+}
+
+.cursos {
+  color: purple;
+}
+
+.table a {
+  color: black;
+}
+
+.table a:hover {
+  color: blue;
+}
+
 /* Customize container */
 @media (min-width: 768px) {
   .container {
@@ -96,7 +120,7 @@ body {
   padding: 5px 10px;
   color: #fff;
   text-align: left;
-  background-color: #848482;
+  background-color: purple;
 }
 
 .header-bar .address {
